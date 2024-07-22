@@ -130,7 +130,7 @@ def experiment_with_circuit(num_qubits, depth, use_ibmq=False):
 # results, total_time, original_time = experiment_with_circuit(8, 4, use_ibmq=False)
 
 # For IBM Quantum hardware:
-results, total_time, original_time = experiment_with_circuit(8, 4, use_ibmq=True)
+results, total_time, original_time = experiment_with_circuit(8, 3, use_ibmq=True)
 
 # Print results
 print(results, total_time, original_time)
